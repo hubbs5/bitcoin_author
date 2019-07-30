@@ -14,14 +14,8 @@ axes.labelsize: large
 axes.labelcolor: 555555
 axes.axisbelow: True       # grid/ticks are below elements (e.g., lines, text)
 
-axes.prop_cycle: cycler('color', ['E24A33', '348ABD', '988ED5', '777777', 'FBC15E', '8EBA42', 'FFB5B8'])
-                   # E24A33 : red
-                   # 348ABD : blue
-                   # 988ED5 : purple
-                   # 777777 : gray
-                   # FBC15E : yellow
-                   # 8EBA42 : green
-                   # FFB5B8 : pink
+# From: https://mycolor.space/?hex=%23E80033&sub=1
+axes.prop_cycle: cycler('color', ['E80033', 'CE0A6B', '9B398C', '604C8F', '334E7A', '2F4858'])
 
 xtick.color: 555555
 xtick.direction: out
